@@ -6,12 +6,6 @@
   "scripts": {
     "prepare": "husky install"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run test",
-      "commit-msg": "commitlint -e $HUSKY_GIT_PARAMS"
-    }
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zhongbo320104/babel-pro.git"
